@@ -26,7 +26,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "maydev";
+    $host = "maydev.database.windows.net";
     $user = "dwicaksono";
     $pass = "Dimaswicaksono10";
     $db = "MayDevdb";
