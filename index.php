@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "maydev.database.windows.net";
+    $host = "macdserver.database.windows.net";
     $user = "dwicaksono";
-    $pass = "Dimaswicaksono10";
-    $db = "MayDevdb";
+    $pass = "qwerty12345~";
+    $db = "macd";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
