@@ -29,7 +29,7 @@
     $host = "macdserver.database.windows.net";
     $user = "dwicaksono";
     $pass = "qwerty12345~";
-    $db = "macd";
+    $db = "macdserver";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
